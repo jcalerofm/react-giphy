@@ -7,12 +7,12 @@ const Hello = ({ name }) => {
   return (
     <div>
       Hello,
-      {name}
+      { name }
     </div>
   );
 };
 
 const root = document.getElementById('root');
 if (root) {
-  ReactDOM.render(<Hello name="World" />, root);
+  ReactDOM.render(<Hello name="Jorge" />, root);
 }
